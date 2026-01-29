@@ -13,24 +13,48 @@
 
     <label for="phone">Phone: </label>
     <input type="tel" id ="phone" placeholder="982XXXXXXX">
-
+    <br>
+    <br>
+    <br>
+    <br>
     <label for="pass">Password: </label>
     <input type="password" id ="pass">
+    <br>
+    <br>
+    <label for="cpass">Confirm Password: </label>
+    <input type="password" id ="cpass">
 
-    <input type="submit" value = "submit">
+    
 
     <p>
-      Choose your gender
-      <label for="gender">Male</label>
+      Choose your gender: 
+      <label for="male">Male</label>
       <input type="radio" name="gender" id="male" value = "male">
       <label for="gender">Female</label>
       <input type="radio" name="gender" id="female" value = "female">
     </p>
 
     <p>
-      Select your hobbies: 
-
+      Select your hobbies :  
+      <label for="sports">Sports</label>
+      <input type="checkbox" name="hobby" id="sports" value="sports">
+      <label for="Reading">Reading</label>
+      <input type="checkbox" name="hobby" id="Reading" value="Reading">
+      <label for="Cooking">Cooking</label>
+      <input type="checkbox" name="hobby" id="Cooking" value="Cooking">
     </p>
+    <p>
+      <label for="city">Choose a city: </label>
+      <select name="city" id="city">
+        <option value="delhi">Delhi</option>
+        <option value="bombay">Bombay</option>
+        <option value="Noida">Noida</option>
+      </select>
+    </p>
+    <label for="description">Description: </label><br>
+    <textarea name="description" id="description" rows="10" cols="120"></textarea>
+    <br>
+    <input type="submit" value = "submit">
     
   </form>
 </body>
