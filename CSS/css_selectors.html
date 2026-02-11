@@ -18,19 +18,38 @@
       color: red;
      }
      .big{
-      font-size: 18px;
+      font-size: 40px;
      }
      .small{
       font-size: 10px;
      }
+     #p1{
+      background-color: yellow ;
+     }
+
+     *{
+      margin: 0;
+      padding: 0;
+      color: burlywood;
+      font-size: 20px;
+     }
+     div p{
+      color: teal;
+      font-style: italic;
+     }
   </style>
 </head>
 <body>
-  <h1 class="green big">CSS SELECTORS</h1>
-  <p class="red">
+  <h1 id="mainElement" class="green big">CSS SELECTORS</h1>
+  <p id="p1" class="red">
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus doloribus obcaecati, ad asperiores optio ipsa alias et? Minima, corporis provident! Pariatur veniam aperiam reprehenderit tempore earum id quisquam officia corporis illo, perspiciatis laborum ut neque quas quia amet delectus placeat consequuntur rerum distinctio! Laboriosam, dolore.
   </p>
   <h2 class = "small blue">Element Selector</h2>
   <p>Element selector selects all the elements</p>
+  <div>
+    <p>
+      This text is inside a div p and is going to be italicised
+    </p>
+  </div>
 </body>
 </html>
